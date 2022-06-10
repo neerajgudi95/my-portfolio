@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Frontend, javascript, reactjs developer, self-learned">
+    <meta name="keyword" content="portfolio, javascript,react,reactjs, frontEnd, responsive, developer">
+    <title>Neeraj Gudi</title>
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.png">
+    <script src="https://kit.fontawesome.com/7cd9a54947.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#home">N</a>
+            </div>
+            <button class="nav-btn-mobile" id="nav-btn-mobile">
+                <i class="fa-solid fa-bars fa-2x show" id="open"></i>
+                <i class="fa-solid fa-xmark fa-2x" id="close"></i>
+            </button>
+            </div>
+            <ul id="nav-link">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#aboutMe">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <!-- <li class="hire-me-link"><a href="#hireMe">Hire me</a></li> -->
+            </ul>
+            <div>
+                <input type="checkbox" class="checkbox" id="checkbox" />
+                <label for="checkbox" class="label">
+                    <i class="fa fa-moon"></i>
+                    <i class="fa fa-sun"></i>
+                    <div class="ball"></div>
+                </label>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="home" id="home">
+            <div class="intro">
+                <p>Hello, I'm</p>
+                <h1>NEERAJ GUDI</h1>
+                <p>CREATIVE FRONT-END DEVELOPER</p>
+                <button class="resume" id="resume">Download Resume</button>
+                <div class="connections">
+                    <a href="https://linkedin.com/in/neerajgudi95" target="_blank"><i
+                            class="fa-brands fa-linkedin"></i></a><a href="https://github.com/neerajgudi95"
+                        target="_blank"><i class="fa-brands fa-github"></i></a><a href="https://codepen.io/neerajgudi95"
+                        target="_blank"><i class="fa-brands fa-codepen"></i></a>
+                </div>
+            </div>
+            <div class="self__image">
+                <!-- <img loading="lazy" src="./assets/portfolio_img.png" alt="self__img" /> -->
+                <picture>
+                    <source type="image/webp" srcset="">
+                    <img loading="lazy"
+                        src="https://firebasestorage.googleapis.com/v0/b/react-projects-cc4f2.appspot.com/o/portfolio_img.png?alt=media&token=bcde57db-b062-4ac6-9440-cceb9fd2a2f1"
+                        alt="self__img" />
+                </picture>
+            </div>
+        </section>
+        <section class="about" id="aboutMe">
+            <h2>About me</h2>
+            <div class="aboutContent">
+                <div class="intro__illustration">
+                </div>
+                <div class="self__intro">
+                    <p>
+                        Hi, I'm Neeraj gudi, a self-taught passionate FrontEnd developer
+                        from India, currently working at Infosys as a FrontEnd engineer.
+                        I've been building stuff on the web since 3-4 years.
+                        <br /><br />
+                        I've made
+                        numerous side projects and I also keen in using react to build
+                        delightful user interfaces
+                        I have knowledge and experience in below technologies in the skills section. Looking
+                        forward to working with like minded people.
+                    </p>
+                </div>
+            </div>
+            <div class="quotes">
+                <div class="quote-card">
+                    <p class="quote">"Only a life lived for others is a life worthwhile."
+                    </p>
+                    <p class="author">-Albert Einstein</p>
+                </div>
+                <div class="quote-card">
+                    <p class="quote">"Whoever is happy will make others happy too"</p>
+                    <p class="author">-Anne Frank</p>
+                </div>
+                <div class="quote-card">
+                    <p class="quote">"Life is trying things to see if they work."</p>
+                    <p class="author">-Ray Bradbury</p>
+                </div>
+            </div>
+        </section>
+        <section class="skills">
+            <h2>Skills</h2>
+            <p id="es6">ES6</p>
+            <p id="rsd">Responsive Design</p>
+            <p id="sel">Self learner</p>
+            <p id="tep">Team player</p>
+            <p id="bev">Be +ve</p>
+            <p id="boot">Bootstrap</p>
+            <p id="mui">Material UI</p>
+            <ul>
+                <li>
+                    <a href="https://reactjs.org/" target="_blank"><i class="fa-brands fa-react fa-5x"></i></a>
+                </li>
+                <li>
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"><i
+                            class="fa-brands fa-html5 fa-5x"></i></a>
+                </li>
+                <li>
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"><i
+                            class="fa-brands fa-css3 fa-5x"></i></a>
+                </li>
+                <li>
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/javascript" target="_blank"><i
+                            class="fa-brands fa-js-square fa-5x"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.w3schools.com/sql/" target="_blank"><i
+                            class="fa-solid fa-database fa-5x"></i></a>
+                </li>
+                <li>
+                    <a href="https://docs.aws.amazon.com/" target="_blank"><i class="fa-brands fa-aws fa-5x"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.npmjs.com/" target="_blank"><i class="fa-brands fa-npm fa-5x"></i></a>
+                </li>
+            </ul>
+        </section>
+        <section class="projects" id="projects">
+            <h2>PROJECTS</h2>
+            <div class="project-tiles">
+                <div class="card">
+                    <div class="card-content">
+                        <h2>IP TRACKER</h2>
+                        <p>A react application that tracks location of valid public ip address and displays it on a map
+                        </p>
+                        <div class="links">
+                            <button id="ip-demo-link" class="demo">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i><span>Demo</span>
+                            </button>
+                            <button id="ip-code-link" class="code"><i
+                                    class="fa-brands fa-github"></i><span>Code</span></button>
+                        </div>
+                    </div>
+                    <div class="card-image">
+                        <img loading="lazy"
+                            src="https://firebasestorage.googleapis.com/v0/b/react-projects-cc4f2.appspot.com/o/ip_addr_tracker.JPG?alt=media&token=ded1beb2-f75e-44af-a20f-3124d4108b1c"
+                            alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <h2>COVID19 TRACKER</h2>
+                        <p>A react application that tracks real time data related to covid19 cases</p>
+                        <div class="links">
+                            <button id="covid-demo-link" class="demo">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i><span>Demo</span>
+                            </button>
+                            <button id="covid-code-link" class="code"><i
+                                    class="fa-brands fa-github"></i><span>Code</span></button>
+                        </div>
+                    </div>
+                    <div class="card-image">
+                        <img loading="lazy"
+                            src="https://firebasestorage.googleapis.com/v0/b/react-projects-cc4f2.appspot.com/o/covid19_tracker.JPG?alt=media&token=af12a9a9-68cd-44bc-8b47-10bab940a84a"
+                            alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <h2>CRYPTO MANAGER</h2>
+                        <p>A react application that gives you top 100 cryptocurrency data</p>
+                        <div class="links">
+                            <button id="crytpo-demo-link" class="demo">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i><span>Demo</span>
+                            </button>
+                            <button id="crypto-code-link" class="code"><i
+                                    class="fa-brands fa-github"></i><span>Code</span></button>
+                        </div>
+                    </div>
+                    <div class="card-image">
+                        <img loading="lazy"
+                            src="https://firebasestorage.googleapis.com/v0/b/react-projects-cc4f2.appspot.com/o/crypto-manager.JPG?alt=media&token=4fb8fac2-d202-4e02-a558-4f42881b4d51"
+                            alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <h2>NETFLIX CLONE</h2>
+                        <p>A NETFLIX application clone using react. Check and out and watch trailers of various movies
+                        </p>
+                        <div class="links">
+                            <button id="netf-demo-link" class="demo">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i><span>Demo</span>
+                            </button>
+                            <button id="netf-code-link" class="code"><i
+                                    class="fa-brands fa-github"></i><span>Code</span></button>
+                        </div>
+                    </div>
+                    <div class="card-image">
+                        <img loading="lazy"
+                            src="https://firebasestorage.googleapis.com/v0/b/react-projects-cc4f2.appspot.com/o/netflix_clone.JPG?alt=media&token=8acc4786-c260-47dd-8659-ebfcfb866d32"
+                            alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <h2>SLACK CLONE</h2>
+                        <p>A SLACK application clone using react. Chat with your friends, colleagues and create channels
+                        </p>
+                        <div class="links">
+                            <button id="slack-demo-link" class="demo">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i><span>Demo</span>
+                            </button>
+                            <button id="slack-code-link" class="code"><i
+                                    class="fa-brands fa-github"></i><span>Code</span></button>
+                        </div>
+                    </div>
+                    <div class="card-image">
+                        <img loading="lazy"
+                            src="https://firebasestorage.googleapis.com/v0/b/react-projects-cc4f2.appspot.com/o/slack_clone.JPG?alt=media&token=0f4709a5-8056-4f94-9731-8677deabc70b"
+                            alt="">
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-content">
+                        <h2>TWITTER CLONE</h2>
+                        <p>A TWITTER application clone using react. Tweet whats in your mind and it pops up right away
+                        </p>
+                        <div class="links">
+                            <button id="twitter-demo-link" class="demo">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i><span>Demo</span>
+                            </button>
+                            <button id="twitter-code-link" class="code"><i
+                                    class="fa-brands fa-github"></i><span>Code</span></button>
+                        </div>
+                    </div>
+                    <div class="card-image">
+                        <img loading="lazy"
+                            src="https://firebasestorage.googleapis.com/v0/b/react-projects-cc4f2.appspot.com/o/twitter_clone.JPG?alt=media&token=8d7fbde0-ceee-4c30-894e-4ea1d7562ab3"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+            <p>MANY MORE TO BE UPLOADED</p>
+        </section>
+    </main>
+    <footer>
+        <div class="logo">
+            <a href="#">N</a>
+        </div>
+        <p>Made with <span>❤</span> love by Neeraj</p>
+    </footer>
+</body>
+<script src="script.js"></script>
+
+</html>
